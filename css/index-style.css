@@ -1,0 +1,304 @@
+
+* {
+    line-height: 6px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    scrollbar-color: #ffdbd2 white;
+}
+
+*:hover {
+    scrollbar-color: #ffae9a white;
+}
+
+:root {
+    --gray-color: #7c8795;
+    --heavy-gray-color: #4a5565;
+    --light-orange-color: #ff5b00;
+    --heavy-orange-color: #fc3c2d;
+    --body-bg-color: #fff7ec;
+    --star-color: #fdc700;
+    --light-red-color: #fb2c36;
+    --heavy-red-color: #a00a15;
+    --light-blue-color: #2b7fff;
+    --heavy-color-blue: #2253e6;
+    --heavy-green: #048664;
+    --light-green: #dbfce7;
+    --bg-orange-color: #ffedd4;
+    --side-nutritions-bg-color: #f9fafb;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.color-light-gray {
+    color: var(--gray-color);
+}
+
+.linear-orange {
+    background-image: linear-gradient(to right, var(--light-orange-color) , var(--heavy-orange-color));
+}
+
+.transforme-top-50 {
+    transform: translateY(25%);
+    -webkit-transform: translateY(25%);
+    -moz-transform: translateY(25%);
+    -ms-transform: translateY(25%);
+    -o-transform: translateY(25%);
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+.border-color-light-orange {
+    border: 2px solid var(--light-orange-color);
+}
+
+.color-heavy-gray {
+    color: var(--heavy-gray-color);
+}
+
+.light-orange-color {
+    color: var(--light-orange-color);
+}
+
+.heavy-orange-color {
+    color: var(--heavy-orange-color);
+}
+
+.bg-orange-color {
+    background-color: var(--bg-orange-color);
+}
+
+.light-red {
+    color: var(--light-red-color);
+}
+
+.heavy-red {
+    color: var(--heavy-red-color);
+}
+
+.heavy-blue {
+    color: var(--heavy-color-blue);
+}
+
+.bg-blue-color {
+    background-color: #dbeafe;
+}
+
+.light-blue {
+    color: var(--light-blue-color);
+}
+
+.heavy-green-color {
+    color: #048664;
+}
+
+.light-green-color {
+    background-color: var(--light-green);
+}
+
+.light-blue-bg {
+    background-color: var(--light-blue-color);
+}
+
+.hover-orange:hover {
+    color: var(--heavy-orange-color);
+}
+
+.heavy-orange-color:hover {
+    background-color: #ffd8a1;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.star-color {
+    color: var(--star-color);
+}
+
+
+
+.main-section-hight {
+    height: 100vh;
+}
+
+.hight-section {
+    height: 50vh;                
+    overflow-y: auto;               
+    scrollbar-color: #ffdbd2 white;
+}
+
+.box-hight {
+    height: 100vh;
+}
+
+.bottom-icons {
+    margin-left: 30px;
+}
+
+.main-section {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.main-section {
+    box-shadow: 2px 2px 1px 1px var(--gray-color);
+}
+
+.alert {
+    background-color: #fef2f2;
+    border-left: 4px solid var(--light-red-color);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-16 {
+    line-height: 16px;
+}
+
+.bg-nutrition {
+    /* background-color: ; */
+    background-image: linear-gradient(to right, #eff5fc ,#c9e4ff );
+}
+
+/*=================================================================*/
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--light-orange-color);
+    background-color: transparent;
+    border-bottom: 3px solid var(--light-orange-color);
+    padding-bottom: 16px;
+}
+
+.nav-pills .nav-link:hover {
+    color: var(--light-orange-color);
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.bg-ingrediant-color {
+    background-color: #fff9ec;
+}
+
+.steps-recipt {
+
+    margin: 15px;
+}
+
+.number-ingrediant {
+    color: white;
+    margin-right: 15px;
+    background-color: var(--light-orange-color);
+    width: fit-content;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.instruction-number {
+    background-color: var(--light-orange-color);
+    padding: 15px;
+    width: fit-content;
+    color: white;
+    margin: 0 12px 16px 0;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.fa-wheat-awn {
+    color: #d08700;
+    background-color: #fef9c2;
+}
+
+.fa-pagelines {
+    color: #00a63e;
+    background-color: #dbfce7;
+}
+
+.fa-dumbbell {
+    color: var(--light-blue-color);
+    background-color: #dbeafe;
+}
+
+.fa-droplet {
+    color: #e7000b;
+    background-color: #ffe2e2;
+}
+
+.fa-cube {
+    color: #e60076;
+    background-color: #fce7f3;
+}
+
+.chef-tips {
+    border-left: 3px solid #e17100;
+}
+
+.fa-circle-check {
+    color: #e17100;
+}
+
+.btn-bg-color {
+    background-image: linear-gradient(to right, var(--light-orange-color), var(--heavy-orange-color));
+}
+
+.btn-bg-color:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    background-image: linear-gradient(to right, #ee5401, #e7382b);
+}
+
+#pills-chef {
+    transform: translateY(-110%);
+    -webkit-transform: translateY(-110%);
+    -moz-transform: translateY(-110%);
+    -ms-transform: translateY(-110%);
+    -o-transform: translateY(-110%);
+}
