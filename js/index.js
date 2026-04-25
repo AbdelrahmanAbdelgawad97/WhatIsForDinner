@@ -24,9 +24,9 @@ var protein = document.getElementById("protein");
 var fat = document.getElementById("fat");
 var sodium = document.getElementById("sodium");
 
-var chefTips = document.getElementById("pills-chef");
+var chefTips = document.getElementById("chef-tip");
 
-
+console.log(chefTips);
 
 
 var meals = 
